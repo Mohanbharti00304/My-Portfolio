@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(212, 209, 209);
+    width: 323px;
+    font-family: 'Merriweather', serif;
+    height: 100vh;
+
+
+}
+
+.sidebar nav{
+    padding: 28px
+}
+.sidebar nav li{
+list-style: none;
+font-size: 16px;
+padding: 20px 0;
+}
+.sidebar nav li a{
+text-decoration: none;
+color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: rgb(228, 79, 161); */
+    height: 54vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.divInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 45px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+.about{
+    font-size: 30px;
+    
+}
+.moreabout{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 15px;
+    border-radius: 24px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 4px 10px;
+    margin: 15px 0;
+}
+
+.btn:hover{
+    background-color:  white;
+    color: dodgerblue;
+}
+
+.divPic img{
+    height: 54vh;
+}
+
+.contactform{
+    font-family: 'Merriweather', serif;
+    padding: 0 34px;
+    padding-top: 150px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+   padding: 15px 0;
+}
+
+.contactform form div{
+    padding: 7px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+   width: 26vw;
+   width: 26vw;
+   border-radius: 6px;
+   margin: 3px 0 0 0;
+   padding: 2px;
+}
+
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 6px;
+    padding: 3px 0 0 0;
+    
+}
+
+#form-check{
+ flex-direction: row;   
+}
+#form-check input{
+width: 25px;
+margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    margin: 25px;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro h2{
+    font-family: 'Merriweather', serif;
+    margin: 15px;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;  
+    margin: 15px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
